@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "530536891365",
+    "project_id": "newproject-2c47d",
+    "storage_bucket": "newproject-2c47d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530536891365:android:e058d4bc4a7cdf2779a50c",
+        "android_client_info": {
+          "package_name": "com.example.fdmart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACDrDnVEYLOBhYS75TIemZSTgGq4jusXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530536891365:android:a5f4f73965d198b079a50c",
+        "android_client_info": {
+          "package_name": "com.example.mart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACDrDnVEYLOBhYS75TIemZSTgGq4jusXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
