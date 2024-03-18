@@ -42,6 +42,7 @@ dependencies:
   intl_phone_number_input: any
   firebase_phone_auth_handler: any
   firebase_storage: any
+  fluttertoast: any
 
 dev_dependencies:
   flutter_test:

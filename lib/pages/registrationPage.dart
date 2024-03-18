@@ -23,7 +23,7 @@ class _registrationPageState extends State<registrationPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey.withOpacity(0.9),
+      backgroundColor: Colors.white.withOpacity(0.9),
       body: SingleChildScrollView(
         child: Form(
           key: _formKey,

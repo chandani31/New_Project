@@ -2,13 +2,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 Widget myTextFormField(
-    {required TextEditingController controller,
+    {TextEditingController? controller,
     int? maxLines = 1,
       String Function(String?)? validator,
     required String hintText,
     required Widget prefixIcon,
     Widget? suffixIcon,
     TextInputType? keyboardType,
+      void Function(String)? onChanged,
       required InputDecoration decoration}) {
 
   return Padding(
@@ -18,6 +19,7 @@ Widget myTextFormField(
       maxLines: maxLines,
       keyboardType: keyboardType,
       validator: validator,
+      onChanged: onChanged,
       decoration: InputDecoration(
         hintText: hintText,
         prefixIcon: prefixIcon,
